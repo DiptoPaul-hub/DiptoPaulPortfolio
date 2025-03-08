@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Dipto Paul Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+    <div class="admin-container">
+        <h2>Admin Dashboard</h2>
+        <div class="admin-section">
+            <h3>Edit About Me</h3>
+            <textarea id="about-text-input" placeholder="Edit About Me text"></textarea>
+            <button onclick="updateAboutText()">Save About Text</button>
+        </div>
+        <div class="admin-section">
+            <h3>Edit Skills</h3>
+            <input type="text" id="new-skill" placeholder="Add new skill">
+            <button onclick="addSkill()">Add Skill</button>
+            <ul id="skills-list"></ul>
+        </div>
+        <div class="admin-section">
+            <h3>Edit Portfolio</h3>
+            <input type="text" id="portfolio-title" placeholder="Project Title">
+            <textarea id="portfolio-description" placeholder="Project Description"></textarea>
+            <input type="text" id="portfolio-image" placeholder="Image URL">
+            <button onclick="addPortfolioItem()">Add Portfolio Item</button>
+            <div id="portfolio-list"></div>
+        </div>
+        <!-- Button Container for Save and Logout -->
+        <div class="button-container">
+            <button id="save-btn">Save</button>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>

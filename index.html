@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Dipto Paul">
+    <title>Dipto Paul - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="navbar-name">Dipto Paul</span>
+        </div>
+        <ul class="navbar-center">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-right">
+            <button class="login-btn" onclick="window.location.href='login.html'">Log In</button>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="header-content">
+            <div class="home">
+                <h3>Dive into the <br> Creativity</h3>
+                <h1>Dipto Paul</h1>
+                <h2>Portfolio</h2>
+                <div class="accent-line"></div>
+                <p>Dedicated and aspiring individual with expertise in <br> Graphic Design, Web Development, Videography, <br> Photography, and Creative Problem-Solving.</p>
+                <br>
+                <p><b>Let's bring your ideas to life!</b></p>
+            </div>
+            <div class="image-container">
+                <img src="https://i.ibb.co/kmqX5hs/Untitled-design-5.png" alt="Dipto Paul Portrait">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text" id="about-text">
+                <!-- Loaded dynamically -->
+            </div>
+            <div class="about-skills">
+                <h3>Core Skills</h3>
+                <ul id="about-skills">
+                    <!-- Loaded dynamically -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid" id="services-grid">
+            <!-- Loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid" id="portfolio-grid">
+            <!-- Loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials-grid" id="testimonials-grid">
+            <!-- Loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form" id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <ul class="contact-list">
+                    <li>Email: <a href="mailto:diptopaulk@gmail.com">diptopaulk@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/diptopaul-dsp" target="_blank">linkedin.com/in/diptopaul-dsp</a></li>
+                    <li>GitHub: <a href="https://github.com/DiptoPaul" target="_blank">github.com/DiptoPaul</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Dipto Paul. All rights reserved.</p>
+    </footer>
+</body>
+</html>
